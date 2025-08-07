@@ -7,6 +7,11 @@ packages:
   gitUrl: https://github.com/Hariharan-SV-IBM
   gitUsername: Hariharan-SV-IBM
   gitBranch: main
+- name: TPP01
+  gitServerName: git
+  gitUrl: https://github.com/Hariharan-SV-IBM
+  gitUsername: Hariharan-SV-IBM
+  gitBranch: master
 services:
 - serviceName: project.extgit0708_01.integrations:dafSVC
   packages:

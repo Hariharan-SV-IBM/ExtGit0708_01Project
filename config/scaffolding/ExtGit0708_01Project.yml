@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/Hariharan-SV-IBM
   gitUsername: Hariharan-SV-IBM
   gitBranch: main
+services:
+- serviceName: project.extgit0708_01.integrations:dafSVC
+  packages:
+  - name: ExtGit0708_01Project
+    version: "1.0"
+- serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2076
